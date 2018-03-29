@@ -14,9 +14,9 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <assert.h>
-
+/*
 #include <sodium.h>
-
+*/
 #include "endian.h"
 
 static void digestInit(crypto_generichash_blake2b_state *S, const int n, const int k) {
